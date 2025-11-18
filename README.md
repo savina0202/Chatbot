@@ -1,21 +1,22 @@
-# AI Voice Chat Agent - Function/Tool calling Enhancement
+## AI Voice Chat Agent - Function/Tool calling Enhancement
 
+To improve the accuracy of LLM responses, we need to invoke external functions or tools based on semantic-relevance analysis.
 
-## 🎯 Technical Objectives
+### 🎯 Technical Objectives
 
 1. Function Calling with LLM: Using function/tool calling by prompting OpenAI to output structured JSON calls for external functions
-
 2. Intent Parsing and Tool Mapping: Parsing user queries to determine the intent(e.g., perform a mathematical calculation or perform an API query). 
 
-## Demo
+### Demo
 
 https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
 
-## 🚀 Technical Design
+> [!NOTE]
+> The UI is used for debugging purpose, not a production mode.
+
+### 🚀 Technical Design
 
 **Tool Functions：** Implement two helper functions:
-
-
 
  * `search_arxiv(query: str) -> str`: Simulates or performs an arXiv search and returns a relevant passage or summary for the query.
 
@@ -32,12 +33,7 @@ https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
   {"function": "calculate", "arguments": {"expression": "2+2"}}
 
   ```
-
-
-
   or
-
-
 
   ```json
 
@@ -73,7 +69,7 @@ https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
 
 <img width="1494" height="614" alt="ChatBot" src="https://github.com/user-attachments/assets/c3e10890-023f-4717-99c9-e92c1b64d467" />
   
-## Deployment
+### Deployment
 
 To deploy this project: git clone it first, then:
 
