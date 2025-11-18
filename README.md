@@ -12,7 +12,7 @@ To improve the accuracy of LLM responses, we need to invoke external functions o
 https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
 
 > [!NOTE]
-> The UI is used for debugging purpose, not a production mode.
+> The UI is intended for debugging purposes only, not for production use.
 
 ### 🚀 Technical Design
 
