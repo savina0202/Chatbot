@@ -1,0 +1,15 @@
+#Backend libs
+python-dotenv
+openai-whisper
+openai==0.28
+transformers
+pyttsx3
+pydub
+comtypes==1.4.11 # this version is manditory
+
+#Frontend libs
+gradio>=4.0.0
+requests>=2.31.0
+python-multipart>=0.0.6
+fastapi
+uvicorn
