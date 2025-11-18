@@ -1,16 +1,15 @@
-# AI Voice Chat Agent Enhancement
-
+# AI Voice Chat Agent - Function/Tool calling Enhancement
 
 
 ## 🎯 Technical Objectives
 
 1. Function Calling with LLM: Using function/tool calling by prompting OpenAI to output structured JSON calls for external functions
 
-
-
 2. Intent Parsing and Tool Mapping: Parsing user queries to determine the intent(e.g., perform a mathematical calculation or perform an API query). 
 
+## Demo
 
+https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
 
 ## 🚀 Technical Design
 
@@ -66,9 +65,7 @@
 
   * **Enhancing API:** Endpoint /voice-query and /chathist support these technical changes
 
-## Demo
 
-https://github.com/user-attachments/assets/76839271-e3c7-4cbe-9695-11f49a273e44
 
 
 **Frontend UI：**
